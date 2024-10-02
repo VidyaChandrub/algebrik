@@ -1,0 +1,24 @@
+{
+  "lineLinks": [
+    {"icon": "bi bi-check2", "title":"Legacy Systems"},
+    {"icon": "bi bi-check2", "title":"Regulatory Compliance"},
+    {"icon": "bi bi-check2", "title":"Data Management"},
+    {"icon": "bi bi-check2", "title":"Customer Experience"},
+    {"icon": "bi bi-check2", "title":"Speed and Accuracy"}
+  ],
+  "list": [
+    { "icon": "bi bi-check2", "title": "Designed to attract engage"},
+    { "icon": "bi bi-check2", "title": "300% boost in application-to-funding conversion" },
+    { "icon": "bi bi-check2", "title": "200% rise in revenue per customer" },
+    { "icon": "bi bi-check2", "title": "0% abandonment" },
+    { "icon": "bi bi-check2", "title": "50% self-service increase" },
+    { "icon": "bi bi-check2", "title": "24/7 support" },
+    { "icon": "bi bi-check2", "title": "200% employee productivity growth" },
+    { "icon": "bi bi-check2", "title": "Delivering top-tier ROI results" }
+  ],
+  "texts": {
+    "text1": "Dashboards are meant to be personal tools for website managers and suppliers to enjoy, and are therefore largely modifiable.",
+    "text2": "When it comes to customer actions, website administrators can choose the permissions of each supplier, allowing them to limit or empower commerce activity as needed."
+  },
+  "number": "42,500+"
+}

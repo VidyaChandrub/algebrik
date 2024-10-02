@@ -1,0 +1,23 @@
+[
+  {
+   "img": "/assets/img/algebrik/instant-approval.png",
+   "info": "Instant Approval",
+   "text": "Some applications are approved within minutes, especially if you apply online and meet all the criteria."
+  },
+  {
+    "img": "/assets/img/algebrik/standard-approval.png",
+    "info": "Standard Approval",
+    "text": "Typically, it can take 7 to 10 days for a decision."
+   },
+   {
+    "img": "/assets/img/algebrik/extended-apporval.png",
+    "info": "Extended Approval",
+    "text": "In some cases, it may take up to 30 days if additional verification is needed."
+   },
+   {
+    "img": "/assets/img/algebrik/standard-approval.png",
+    "info": "Standard Approval",
+    "text": "Typically, it can take 7 to 10 days for a decision."
+   }
+       
+]

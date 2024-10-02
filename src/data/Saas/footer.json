@@ -1,0 +1,38 @@
+{
+  "services": [
+    { "link": "#", "title": "Personal Loans" },
+    { "link": "#", "title": "Auto Loans" },
+    { "link": "#", "title": "Business Loans" },
+    { "link": "#", "title": "Student Loans" }
+  ],
+  "resources": [
+    { "link": "#", "title": "White Paper" },
+    { "link": "#", "title": "News Paper" },
+    { "link": "#", "title": "Blogs" }
+  ],
+  "company":[
+    { "link": "#", "title": "About Us" },
+    { "link": "#", "title": "Our Team" },
+    { "link": "#", "title": "Careers" },
+    { "link": "#", "title": "Contact Us" }
+  ],
+  "usefulLink":[
+    {
+      "img": "/assets/img/algebrik/pay5.svg.svg",
+      "title": "Send & Receive Money"
+    },
+    {
+      "img": "/assets/img/algebrik/pay2.svg.svg",
+      "title": "Shop & Buy From Anywhere"
+    },
+    {
+      "img": "/assets/img/algebrik/pay3.svg.svg",
+      "title": "Deposite Your Money"
+    },
+    {
+      "img": "/assets/img/algebrik/pay4.svg.svg",
+      "title": "Control With Mobile App"
+    }
+  ]
+
+}
