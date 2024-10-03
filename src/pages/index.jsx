@@ -28,7 +28,7 @@ const HomeSaasTechnology = () => {
   return (
     <>
       <Head>
-        <title>Iteck - Saas Technology</title>
+        <title>ALGEBRIK</title>
       </Head>
 
       <MainLayout>
