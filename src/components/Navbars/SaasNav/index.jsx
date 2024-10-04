@@ -32,7 +32,7 @@ const Navbar = ({ navbarRef, bgWhite }) => {
           <li className="nav-item">
               <Link href="/page-contact-5">
                 <a className="nav-link">
-                  Home
+                  HOME
                 </a>
               </Link>
             </li>
