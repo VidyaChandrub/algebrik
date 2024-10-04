@@ -20,9 +20,9 @@ const Navbar = ({ navbarRef, bgWhite }) => {
 
   return (
     <nav className={`navbar navbar-expand-lg navbar-light style-5 ${bgWhite ? 'bg-light':''}`} ref={navbarRef}>
-      <div className="container-fluid">
+      <div className="container">
         <a className="navbar-brand" href="#">
-          <img src="/assets/img/algebrik/algebrik_logo.png" alt="" />
+          <img src="/assets/img/algebrik/logo.svg" alt="" />
         </a>
         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon"></span>
@@ -36,7 +36,35 @@ const Navbar = ({ navbarRef, bgWhite }) => {
                 </a>
               </Link>
             </li>
-            <li className="nav-item dropdown" onMouseMove={handleMouseMove} onMouseLeave={handleMouseLeave}>
+            <li className="nav-item">
+              <Link href="/page-contact-5">
+                <a className="nav-link">
+                  ABOUT ALGEBRIK
+                </a>
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link href="/page-contact-5">
+                <a className="nav-link">
+                CHALLENGES
+                </a>
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link href="/page-contact-5">
+                <a className="nav-link">
+                SOLUTIONS
+                </a>
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link href="/page-contact-5">
+                <a className="nav-link">
+                BLOG
+                </a>
+              </Link>
+            </li>
+            {/* <li className="nav-item dropdown" onMouseMove={handleMouseMove} onMouseLeave={handleMouseLeave}>
               <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown2" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 Services
               </a>
@@ -67,16 +95,25 @@ const Navbar = ({ navbarRef, bgWhite }) => {
                 <li><Link href="/"><a className="dropdown-item">Contact Us</a></Link></li>
                 <li><Link href="/"><a className="dropdown-item">Careers</a></Link></li>
               </ul>
-            </li>
+            </li> */}
           </ul>
           <div className="nav-side">
-            <div className="d-flex align-items-center">
+          <ul className="navbar-nav m-auto mb-2 mb-lg-0">
+            <li className="nav-item">
+              <Link href="/page-contact-5">
+                <a className="btn blue5-3Dbutn hover-blue2 sm-butn fw-bold" >
+                <span>CONTACT</span>
+                </a>
+              </Link>
+            </li>
+          </ul>
+            {/* <div className="d-flex align-items-center">
               <Link href="/page-contact-5">
                 <a className="btn rounded-pill blue5-3Dbutn hover-blue2 sm-butn fw-bold">
                   <span>Start Free Trial </span>
                 </a>
               </Link>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

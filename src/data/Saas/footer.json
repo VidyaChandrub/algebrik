@@ -16,6 +16,11 @@
     { "link": "#", "title": "Careers" },
     { "link": "#", "title": "Contact Us" }
   ],
+  "address":[
+    {"ads": "Abc Complex, Tower A, Whitefield, Bangalore", "icon": "bi bi-geo-alt-fill"},
+  {"ads": "+91-90000 22211", "icon": "bi bi-telephone-fill"},
+  {"ads": "algebrikal.@gmail.com", "icon": "bi bi-envelope"}
+  ],
   "usefulLink":[
     {
       "img": "/assets/img/algebrik/pay5.svg.svg",
@@ -34,5 +39,7 @@
       "title": "Control With Mobile App"
     }
   ]
+  
+  
 
 }

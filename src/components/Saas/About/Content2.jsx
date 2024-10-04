@@ -8,21 +8,22 @@ const Content = ({ list, rtl }) => {
           <div className="col-lg-7">
             <div className="img main-img2">
               <img src="/assets/img/about/about_s5_2_1.png" alt="" />
-              <img src="/assets/img/about/about_s5_2_2.png" alt="" className="img-body" />
+              <img src="/assets/img/algebrik/algebrik-advantage.svg" alt="" className="img-body" />
             </div>
           </div>
           <div className="col-lg-5">
             <div className="section-head mb-30 style-5">
-              <h2>Built to attract, <span>retain engage & grow</span> </h2>
+              <h2>The Algebrik  <span>Advantage</span> </h2>
+              <p className="p-styles">Helping Credit Unions & Banks to transition to inclusive, future-proof lending tech</p>
             </div>
-            <ul className="list-icon">
+            <ul className="line-links list-icon">
               {
                 list.map((item, index) => (
                   <li key={index}>
                     <span className="icon">
                       <i className={item.icon}></i>
                     </span>
-                    <h6>{ item.title }</h6>
+                    <a>{ item.title }</a>
                   </li>
                 ))
               }

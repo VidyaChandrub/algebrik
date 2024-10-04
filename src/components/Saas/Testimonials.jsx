@@ -17,7 +17,7 @@ const Testimonials = ({ rtl }) => {
       <div className="container">
         <div className="section-head text-center mb-60 style-5">
           <h2 className="mb-20">{ rtl ? 'مراجعات' : 'Clients' } <span>{ rtl ? 'العملاء' : 'Reviews' }</span> </h2>
-          <p>{ rtl ? 'لقد أحببت Iteck من آلاف العملاء في جميع أنحاء العالم وحصلت على ثقة من الشركات الكبرى.' : 'Iteck loved from thoudsands customer worldwide and get trusted from big companies.' }</p>
+          <p className="p-styles">{ rtl ? 'لقد أحببت Iteck من آلاف العملاء في جميع أنحاء العالم وحصلت على ثقة من الشركات الكبرى.' : 'Iteck loved from thoudsands customer worldwide and get trusted from big companies.' }</p>
         </div>
       </div>
       <div className="content">

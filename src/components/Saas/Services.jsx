@@ -17,8 +17,8 @@ const Services = ({ rtl }) => {
           <div className="col-lg-8">
             <div className="section-head text-center mb-60 style-5">
               <p className="text-blue">Services</p>
-              <h2 className="mb-20">Provide loans digitally <br></br>to members/customers in hours </h2>
-              <p>
+              <h2 className="mb-20">Provide loans digitally <br></br><span>to members/customers in hours</span> </h2>
+              <p className="p-styles">
               The average time taken by lenders to process loans <br></br>can vary significantly depending on the type of credit product
               </p>
             </div>
@@ -59,13 +59,13 @@ const Services = ({ rtl }) => {
           > */}
             {
               servicesData.map((service, index) => (
-                <div className="col-lg-3 col-sm-6" key={index}>
+                <div className="col-lg-3 col-sm-6 mb-lg-0 mb-2" key={index}>
                     <a href="#" className="features-card style-5">
                       <div className="icon">
                         <img src={service.img} alt="" />
                       </div>
                       <div className="info">
-                        <h5>{ service.info }</h5>
+                        <h5 className="fw-bold">{ service.info }</h5>
                         <div className="text">
                           { service.text }
                         </div>
@@ -87,22 +87,23 @@ const Services = ({ rtl }) => {
       </div>
       
     </section>
+    
     <section className="services py-5">
       <div className="container">
         <div className="row justify-content-center">
           <div className="col-lg-12">
             <div className="section-head text-center mb-60 style-5">
               
-              <h2 className="mb-20">The time it takes for lenders to approve a credit card application can vary widely</h2>
+              <h2 className="mb-20">The Next Generation In Digital Lending<br></br><span>Enhancing Customer Loyalty</span></h2>
               
             </div>
-            <div className="content">
+            <div className="content py-lg-5">
           <div className="row">
             {
               services2.map((service2, i) => (
                 <div className="col-lg-3 col-sm-6" key={i}>
                   <a href="#" className="features-card mb-30 style-5">
-                    <div className="icon">
+                    <div className="icon1">
                       <img src={service2.img} alt="" />
                     </div>
                     <div className="info">

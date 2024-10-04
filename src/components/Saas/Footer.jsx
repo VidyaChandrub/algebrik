@@ -25,9 +25,9 @@ const Footer = () => {
         
         <div className="row gx-0 justify-content-between">
           <div className="col-lg-6 col-sm-6">
-            <div className="items">
+            <div className="items d-flex align-items-center gap-5">
               <a className="navbar-brand" href="#">
-                <img src="/assets/img/algebrik/algebrik_logo.png" alt="" />
+                <img src="/assets/img/algebrik/logo.svg" alt="" />
               </a>
               <div className="socail-icons">
                 <a href="https://twitter.com/" rel="noreferrer" className="icon-35 rounded-circle bg-white overflow-hidden d-inline-flex align-items-center justify-content-center text-dark me-2" target="_blank">
@@ -43,6 +43,18 @@ const Footer = () => {
                 <i className="fab fa-linkedin"></i>
                 </a>
               </div>
+            </div>
+            <div className="items pt-lg-3 pt-0">
+            <ul className="line-links list-icon">
+            {footerData.address.map((ad, index) => (
+                  <li key={index}>
+                  <span className="text-blue me-2 my-1">
+                    <i className={ad.icon}></i>
+                  </span>
+                  <a href="#">{ ad.ads }</a>
+                </li>
+                ))}
+            </ul>
             </div>
           </div>
           <div className="col-lg-2 col-sm-6">

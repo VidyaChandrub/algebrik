@@ -36,18 +36,18 @@ import React from 'react'
 
 function Community() {
   return (
-    <section className=' section-padding style-5 '>
+    <section className='cont-2  style-5 '>
       <div className="content">
-    <div className='container section-head style-5 py-lg-5'>
-      <div className="row  d-flex align-items-center justify-content-between">
-        <div className="col-lg-4 col-sm-12 col-md-4 col-12">
+    <div className='container section-head style-5 pt-lg-5'>
+      <div className="row  ">
+        <div className="col-lg-5 col-sm-12 col-md-4 col-12">
           <h2 className=''><span>About Algebrik</span></h2>
-          <p className='py-lg-3 py-2'>Algebrik AI is the first cloud-native, <b className='text-dark'>AI-powered Loan Origination System (LOS)</b>, based in the US. It offers modern solutions to credit unions and mid-tier banks facing outdated technology.</p>
+          <p className='py-lg-3 py-2 algerbik-p'>Algebrik AI is the first cloud-native, <b className='text-blue'>AI-powered Loan Origination System (LOS)</b>, based in the US. It offers modern solutions to credit unions and mid-tier banks facing outdated technology.</p>
           
-          <p>With lending tech stagnant for over <b className='text-dark'>25 years</b>, it's crucial for lenders to adopt inclusive, future-proof technologies to engage and grow Gen Z and Gen Alpha customers.</p>
+          <p className="algerbik-p">With lending tech stagnant for over <b className='text-blue'>25 years</b>, it's crucial for lenders to adopt inclusive, future-proof technologies to engage and grow Gen Z and Gen Alpha customers.</p>
         </div>
-        <div className="col-lg-8 col-sm-12 col-md-8 col-12">
-          <img src='/assets/img/algebrik/about-algebrik.png' className="img-fluid float-lg-left py-lg-0 pt-5 ms-auto" />
+        <div className="col-lg-7 col-sm-12 col-md-8 col-12">
+          <img src='/assets/img/algebrik/about-algibrik.png' className="img-fluid float-lg-left py-lg-0 pt-5 me-0 pe-0" />
         </div>
       </div>
     </div>

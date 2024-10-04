@@ -1,20 +1,20 @@
 {
   "lineLinks": [
-    {"icon": "bi bi-check2", "title":"Legacy Systems"},
-    {"icon": "bi bi-check2", "title":"Regulatory Compliance"},
-    {"icon": "bi bi-check2", "title":"Data Management"},
-    {"icon": "bi bi-check2", "title":"Customer Experience"},
-    {"icon": "bi bi-check2", "title":"Speed and Accuracy"}
+    {"icon": "bi bi-check2", "title":"Broken omnichannel onboarding journeys causes high drop offs"},
+    {"icon": "bi bi-check2", "title":"High customer acquisition costs due to broken funnel"},
+    {"icon": "bi bi-check2", "title":"Long turn around times don’t suit today’s Gen Z and Gen Alpha members"},
+    {"icon": "bi bi-check2", "title":"High operating costs due to manual processes"},
+    {"icon": "bi bi-check2", "title":"Limited self service options leading to high inbound customer queries"},
+    {"icon": "bi bi-check2", "title":"Limited flexibility in launching and testing new products and workflows"}
   ],
   "list": [
-    { "icon": "bi bi-check2", "title": "Designed to attract engage"},
-    { "icon": "bi bi-check2", "title": "300% boost in application-to-funding conversion" },
-    { "icon": "bi bi-check2", "title": "200% rise in revenue per customer" },
-    { "icon": "bi bi-check2", "title": "0% abandonment" },
-    { "icon": "bi bi-check2", "title": "50% self-service increase" },
-    { "icon": "bi bi-check2", "title": "24/7 support" },
-    { "icon": "bi bi-check2", "title": "200% employee productivity growth" },
-    { "icon": "bi bi-check2", "title": "Delivering top-tier ROI results" }
+    { "icon": "bi bi-check2", "title": "Boost conversion rates with digital onboarding "},
+    { "icon": "bi bi-check2", "title": "Personalised journeys for improved selection and yields" },
+    { "icon": "bi bi-check2", "title": "Automated loan decisions within minutes " },
+    { "icon": "bi bi-check2", "title": "Composable architecture for quick workflow setup" },
+    { "icon": "bi bi-check2", "title": "Pre-integrated with credit bureaus and core systems" },
+    { "icon": "bi bi-check2", "title": "Configurable rules engine for risk-based pricing" },
+    { "icon": "bi bi-check2", "title": "Cloud-native for elastic scalability" }
   ],
   "texts": {
     "text1": "Dashboards are meant to be personal tools for website managers and suppliers to enjoy, and are therefore largely modifiable.",
