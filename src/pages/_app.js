@@ -1,8 +1,7 @@
 import React from "react";
 import Script from "next/script";
 import Head from "next/head";
-import "../styles/preloader.css";
-import "../styles/globals.css";
+// import "../styles/globals.css";
 
 function MyApp({ Component, pageProps }) {
   return (

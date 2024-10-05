@@ -1417,7 +1417,7 @@ footer{
   position: relative;
   overflow: hidden;
   text-align: center;
-  font-weight: 500;
+  font-weight: 400;
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
@@ -1475,6 +1475,7 @@ footer{
   .butn.blue5-3Dbutn,
   .btn.blue5-3Dbutn {
     background: var(--color-blue5);
+    border-radius: 12px;
     /* -webkit-box-shadow: 0px 4px 0px 0px var(--color-blue4);
     box-shadow: 0px 4px 0px 0px var(--color-blue4);
     -webkit-filter: drop-shadow(0 13px 20px #07397235);
@@ -1510,7 +1511,8 @@ footer{
   .butn.hover-blue2:hover,
   .btn.hover-blue2:hover {
     background: black;
-    border-color: transparent !important; }
+    border-color: transparent !important; 
+  color:white;}
     .butn.hover-blue2:hover span,
     .butn.hover-blue2:hover small,
     .btn.hover-blue2:hover span,
@@ -1678,8 +1680,8 @@ footer{
 .section-head.style-5 h2 {
   font-size: 45px; }
   .section-head.style-5 h1 {
-    font-size: 58px;
-  line-height: 78px !important; }
+    font-size: 54px;
+  line-height: 72px !important; }
   .section-head.style-5 h2 span {
     color: var(--color-blue5);
     position: relative;
@@ -3065,9 +3067,9 @@ header.style-4 {
 }
 header.style-5 {
   position: relative;
-  padding: 30px 0px 30px 50px;
+  padding: 50px 0px 0px 30px;
   overflow: hidden;
-  background-image: url('/img/algebrik/Header_bg_style-5.png') !important;
+  background-color: #F1F5F7 !important;
 }
   header.style-5 .info {
     text-align: center; }
@@ -8971,12 +8973,60 @@ header.style-15 {
         line-height: 23px; }
 
 /* --------------- features style-5 --------------- */
-.features-card.style-5 {
+/* .features-card.style-5 {
   display: block;
   padding: 0px;
   background-color: transparent;
   border-radius: 15px;
-  text-align: center; }
+  text-align: center; } */
+  .features-card.style-5 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Ensures space between content and read-more */
+    height: 100%; /* Make sure the card takes full height */
+    padding: 0;
+    background-color: transparent;
+    border-radius: 15px;
+    text-align: center;
+  }
+  
+  .features-card.style-5 .info {
+    flex-grow: 1; /* Ensures the content takes up available space */
+  }
+  
+  .features-card.style-5 .icon {
+    margin-bottom: 40px;
+  }
+  
+  .features-card.style-5 .text {
+    font-size: 16px;
+    line-height: 27px;
+    flex-grow: 1; /* Allows the text content to take available space */
+  }
+  
+  .features-card.style-5 .read-more-wrapper {
+    display: flex;
+    justify-content: center; /* Centers the read-more button horizontally */
+    align-items: flex-end; /* Aligns the read-more button to the bottom */
+    margin-top: auto; /* Pushes the read-more button to the bottom */
+  }
+  
+  .features-card.style-5 .read-more {
+    text-align: center;
+    font-size: 16px;
+    color: #000;
+    cursor: pointer;
+  }
+  
+  .features-card.style-5 .read-more span i {
+    margin-left: 5px;
+    transition: transform 0.3s ease;
+  }
+  
+  .features-card.style-5 .read-more:hover span i {
+    transform: translateX(5px);
+  }
+  
   .features-card.style-5:hover {
     -webkit-box-shadow: 0px 46px 77px 0px #0a2b5326;
     box-shadow: 0px 46px 77px 0px #0a2b5326; }
@@ -9731,6 +9781,35 @@ header.style-15 {
 			[ * contact Section ] 
 ================================================================*/
 /* --------------- contact style-1 --------------- */
+.demo-bg{
+  background-image: url(../img/algebrik/demo-bg.png) !important;
+  background-position: center center; /* Centers the background image */
+  background-size: cover; /* Ensures the image covers the container */
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center; /* Centers content vertically */
+  justify-content: center; 
+  border-radius: 20px !important;
+}
+.demo-btn{
+  background-color: white;
+  color:var(--color-blue5);
+}
+.demo-text{
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 25px;
+  color:white;
+}
+.demo-h2{
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 56px;
+  color: white;
+}
+.expert-btn{
+  border: 1px solid white;
+}
 .contact.style-1 {
   position: relative;
   overflow: hidden; }
@@ -10647,6 +10726,13 @@ footer.style-5 {
       .section-head.style-5 h1 {
         font-size: 45px;
       line-height: 65px !important; }
+
+      .demo-h2{
+        font-size: 28px;
+        font-weight: 600;
+        line-height: 40px;
+        color: white;
+      }
     }
 footer.style-6 {
   position: relative;

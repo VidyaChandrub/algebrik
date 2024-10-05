@@ -1,23 +1,23 @@
 [
   {
    "img": "/assets/img/algebrik/customer-loyality.svg",
-   "info": "Implementation and deployment",
-   "text": "Some applications are approved within minutes, especially "
+   "info": "Security",
+   "text": "Built with SOC 2 compliance, ensuring data protection and regulatory adherence. "
   },
   {
     "img": "/assets/img/algebrik/customer-loyality.svg",
-    "info": "Maintenance & Support",
-    "text": "Typically, it can take 7 to 10 days for a decision."
+    "info": "Customizability",
+    "text": "Fully configurable workflows tailored to your specific business needs."
    },
    {
     "img": "/assets/img/algebrik/customer-loyality.svg",
-    "info": "Training",
-    "text": "In some cases, it may take up to 30 days if additional verification is needed."
+    "info": "Scalability",
+    "text": "Effortlessly scale your operations with elastic cloud-native infrastructure."
    },
    {
     "img": "/assets/img/algebrik/customer-loyality.svg",
-    "info": "ROI Analysis",
-    "text": "Typically, it can take 7 to 10 days for a decision."
+    "info": "Performance",
+    "text": "High-speed processing and fast response times for smoother loan operations."
    }
        
 ]

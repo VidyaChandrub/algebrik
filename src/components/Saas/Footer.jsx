@@ -4,7 +4,7 @@ import footerData from '@data/Saas/footer.json';
 const Footer = () => {
   return (
     <footer className="style-5 border-top brd-gray">
-      <div className="footer-container px-lg-5 px-2">
+      {/* <div className="footer-container px-lg-5 px-2">
           <div className="content d-lg-flex gap-lg-4 align-items-lg-center justify-content-lg-center">
            {
               footerData.usefulLink.map((item, index) => (
@@ -20,7 +20,7 @@ const Footer = () => {
               ))
             }
           </div>
-        </div>
+        </div> */}
       <div className="container">
         
         <div className="row gx-0 justify-content-between">

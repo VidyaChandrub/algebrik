@@ -1,26 +1,26 @@
 [
   {
-   "img": "/assets/img/algebrik/Loan_1.svg",
-   "info": "Personal Loans",
-   "text": "Typically, personal loans can be processed within 1 to 7 days.",
+   "img": "/assets/img/algebrik/loan-1.svg",
+   "info": "Credit Unions",
+   "text": "Solve Member Drop-Off in Onboarding using Seamless Digital Journeys Boost conversion rates by streamlining digital onboarding and automating loan approvals.",
    "link": "Read more"
   },
   {
-    "img": "/assets/img/algebrik/Loan_2.svg",
-    "info": "Auto Loans",
-    "text": "Auto loans are usually processed relatively quickly,",
+    "img": "/assets/img/algebrik/loan-2.svg",
+    "info": "Mid-Tier Banks",
+    "text": "Solve Slow Product Launches Using Configurable Workflows Launch new loan products quickly and scale operations with flexible, no-code workflows.",
     "link": "Read more"
    },
    {
-    "img": "/assets/img/algebrik/Loan_3.svg",
-    "info": "Small Business Loans",
-    "text": "These can take anywhere from 2 weeks to several months",
+    "img": "/assets/img/algebrik/loan-3.svg",
+    "info": "Fintech Lenders",
+    "text": "Solve High Default Rates Using AI-Driven Underwriting Reduce borrower risk and defaults with AI-powered, data-driven loan decisioning.",
     "link": "Read more"
    },
    {
-    "img": "/assets/img/algebrik/Loan_4.svg",
-    "info": "Student Loans",
-    "text": "Processing times for student loans can vary, but they typically",
+    "img": "/assets/img/algebrik/loan-4.svg",
+    "info": "Auto Lenders",
+    "text": "Solve Long Approval Times Using Instant Credit Checks Speed up auto loan approvals and provide personalized financing offers instantly.",
     "link": "Read more"
    }
        

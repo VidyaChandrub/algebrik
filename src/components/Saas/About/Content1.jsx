@@ -7,9 +7,8 @@ const Content = ({ links, rtl }) => {
         <div className="row align-items-center">
           <div className="col-lg-5 order-2 order-lg-0">
             <div className="section-head mb-30 style-5">
-              <h2>Problems banks and <span>credit unions face</span></h2>
+              <h2>What's slowing <span>lenders down?</span></h2>
             </div>
-            {/* <p>{ rtl ? 'يمكن تبسيط عمليات التحميل والتحديث التي يقوم بها الموردون من خلال لوحات المعلومات الأمامية التي توفر سهولة الوصول بشكل أفضل.' : 'Antiquated technology mired in manual & physical paper ridden process – Launching new products, changing existing products configurations takes weeks & months. Members have to jump through online, offline, in person, physical paper hoops to get access to credit.' }</p> */}
             <ul className="line-links list-icon">
 
               {
@@ -17,7 +16,7 @@ const Content = ({ links, rtl }) => {
                   <span className="icon">
                   <i className={link.icon}></i>
                 </span>
-                <a href="#">{link.title }</a>
+                <a>{link.title }</a>
                 </li>))
               }
             </ul>

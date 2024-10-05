@@ -30,35 +30,35 @@ const Navbar = ({ navbarRef, bgWhite }) => {
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav m-auto mb-2 mb-lg-0">
           <li className="nav-item">
-              <Link href="/page-contact-5">
+              <Link href="/">
                 <a className="nav-link">
                   HOME
                 </a>
               </Link>
             </li>
             <li className="nav-item">
-              <Link href="/page-contact-5">
+              <Link href="#about-alegbrik">
                 <a className="nav-link">
                   ABOUT ALGEBRIK
                 </a>
               </Link>
             </li>
             <li className="nav-item">
-              <Link href="/page-contact-5">
+              <Link href="#challengs">
                 <a className="nav-link">
                 CHALLENGES
                 </a>
               </Link>
             </li>
             <li className="nav-item">
-              <Link href="/page-contact-5">
+              <Link href="#solutions">
                 <a className="nav-link">
                 SOLUTIONS
                 </a>
               </Link>
             </li>
             <li className="nav-item">
-              <Link href="/page-contact-5">
+              <Link href="#">
                 <a className="nav-link">
                 BLOG
                 </a>
@@ -101,7 +101,7 @@ const Navbar = ({ navbarRef, bgWhite }) => {
           <ul className="navbar-nav m-auto mb-2 mb-lg-0">
             <li className="nav-item">
               <Link href="/page-contact-5">
-                <a className="btn blue5-3Dbutn hover-blue2 sm-butn fw-bold" >
+                <a className="btn blue5-3Dbutn hover-blue2 sm-butn" >
                 <span>CONTACT</span>
                 </a>
               </Link>
