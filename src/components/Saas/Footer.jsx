@@ -3,7 +3,7 @@ import footerData from '@data/Saas/footer.json';
 
 const Footer = () => {
   return (
-    <footer className="style-5 border-top brd-gray">
+    <footer className="style-5 border-top brd-gray" id="contact">
       {/* <div className="footer-container px-lg-5 px-2">
           <div className="content d-lg-flex gap-lg-4 align-items-lg-center justify-content-lg-center">
            {
@@ -24,7 +24,7 @@ const Footer = () => {
       <div className="container">
         
         <div className="row gx-0 justify-content-between">
-          <div className="col-lg-6 col-sm-6">
+          <div className="col-lg-6 col-sm-12 col-12">
             <div className="items d-flex align-items-center gap-5">
               <a className="navbar-brand" href="#">
                 <img src="/assets/img/algebrik/logo.svg" alt="" />
@@ -57,7 +57,7 @@ const Footer = () => {
             </ul>
             </div>
           </div>
-          <div className="col-lg-2 col-sm-6">
+          <div className="col-lg-2 col-sm-6 col-6">
             <div className="items">
               <div className="fw-bold pb-3 text-blue">
               Services
@@ -74,7 +74,7 @@ const Footer = () => {
               </ul>
             </div>
           </div>
-          <div className="col-lg-2">
+          <div className="col-lg-2 col-sm-6 col-6">
             <div className="items">
               <div className="fw-bold pb-3 text-blue">
                 Resource
@@ -91,7 +91,7 @@ const Footer = () => {
               </ul>
             </div>
           </div>
-          <div className="col-lg-2">
+          <div className="col-lg-2 col-sm-6 col-6">
             <div className="items">
               <div className="fw-bold pb-3 text-blue">
                 Company

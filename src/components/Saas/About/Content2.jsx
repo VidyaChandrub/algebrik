@@ -2,7 +2,7 @@ import Link from 'next/link';
 
 const Content = ({ list, rtl }) => {
   return (
-    <div className="content">
+    <div className="content mt-lg-5">
       <div className="container">
         <div className="row align-items-center justify-content-between d-flex">
           <div className="col-lg-7">

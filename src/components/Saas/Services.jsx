@@ -16,7 +16,7 @@ const Services = ({ rtl }) => {
         <div className="row justify-content-center">
           <div className="col-lg-8">
             <div className="section-head text-center mb-60 style-5">
-              <p className="text-blue">Services</p>
+              {/* <p className="text-blue">Services</p> */}
               <h2 className="mb-20">Solving Key <span>Lending </span><br></br><span>Challenges Across Industries </span> </h2>
                
               <p className="p-styles">
@@ -95,7 +95,8 @@ const Services = ({ rtl }) => {
           <div className="col-lg-12">
             <div className="section-head text-center mb-60 style-5">
               
-              <h2 className="mb-20">The Next Generation in <br></br><span>Digital Lending</span></h2>
+              <h2 className="mb-20">The Next Generation in 
+                <span className=""> Digital Lending</span></h2>
               
             </div>
             <div className="content py-lg-5">

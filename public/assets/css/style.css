@@ -10715,17 +10715,23 @@ footer.style-5 {
       margin-bottom: 30px !important;
     }
 
+    .force-break {
+      white-space: pre-wrap !important; /* Enables line breaks for desktop */
+    }
     @media (max-width: 767px)  {
       header.style-5 {
         position: relative;
         overflow: hidden;
         padding:0px;
-        background: url('/img/algebrik/Header_bg_style-5.png') !important;
+        background-color: #F1F5F7 !important;
       }
 
+      .force-break {
+        white-space: normal; /* Removes line breaks on mobile */
+      }
       .section-head.style-5 h1 {
-        font-size: 45px;
-      line-height: 65px !important; }
+        font-size: 38px;
+      line-height: 48px !important; }
 
       .demo-h2{
         font-size: 28px;

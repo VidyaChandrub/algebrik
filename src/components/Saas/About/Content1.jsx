@@ -25,7 +25,7 @@ const Content = ({ links, rtl }) => {
           <div className="col-lg-7 order-0 order-lg-2">
             <div className="img main-img1">
               <img src="/assets/img/about/about_s5_1_1.png" alt="" className="sm-circle" />
-              <img src="/assets/img/about/about_s5_1_2.png" alt="" className="img-body" />
+              <img src="/assets/img/about/about_s5_1_2.jpeg" alt="" className="img-body" />
               <img src="/assets/img/about/about_s5_1_3.png" alt="" className="card1" />
               <img src="/assets/img/about/about_s5_1_4.png" alt="" className="card2" />
               <img src="/assets/img/about/about_s5_1_5.png" alt="" className="lg-circle" />
