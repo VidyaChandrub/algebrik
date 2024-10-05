@@ -51,7 +51,7 @@ const Footer = () => {
                   <span className="text-blue me-2 my-1">
                     <i className={ad.icon}></i>
                   </span>
-                  <a href="">{ ad.ads }</a>
+                  <a>{ ad.ads }</a>
                 </li>
                 ))}
             </ul>
@@ -66,7 +66,8 @@ const Footer = () => {
                 {
                   footerData.services.map((link, index) => (
                     <li key={index}>
-                      <Link ><a>{link.title}</a></Link>
+                      {/* <Link href={link.link}><a>{link.title}</a></Link> */}
+                      <a>{link.title}</a>
                     </li>
                   ))
                 }
@@ -82,7 +83,8 @@ const Footer = () => {
                 {
                   footerData.resources.map((link, index) => (
                     <li key={index}>
-                      <Link ><a>{link.title}</a></Link>
+                      {/* <Link href={link.link}><a>{link.title}</a></Link> */}
+                      <a>{link.title}</a>
                     </li>
                   ))
                 }
@@ -98,6 +100,7 @@ const Footer = () => {
                 {
                   footerData.company.map((link, index) => (
                     <li key={index}>
+                      {/* <a href={link.link}>{link.title}</a> */}
                       <a>{link.title}</a>
                     </li>
                   ))

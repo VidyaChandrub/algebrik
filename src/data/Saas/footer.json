@@ -1,20 +1,20 @@
 {
   "services": [
-    { "link": "#", "title": "Personal Loans" },
-    { "link": "#", "title": "Auto Loans" },
-    { "link": "#", "title": "Business Loans" },
-    { "link": "#", "title": "Student Loans" }
+    { "link": "  ", "title": "Credit Unions" },
+    { "link": "  ", "title": "Mid-Tier Banks" },
+    { "link": "  ", "title": "Fintech Lenders" },
+    { "link": "  ", "title": "Auto Lenders" }
   ],
   "resources": [
-    { "link": "#", "title": "White Paper" },
-    { "link": "#", "title": "News Paper" },
-    { "link": "#", "title": "Blogs" }
+    { "link": "  ", "title": "White Paper" },
+    { "link": "  ", "title": "News Paper" },
+    { "link": "  ", "title": "Blogs" }
   ],
   "company":[
-    { "link": "#", "title": "About Us" },
-    { "link": "#", "title": "Our Team" },
-    { "link": "#", "title": "Careers" },
-    { "link": "#", "title": "Contact Us" }
+    { "link": "  ", "title": "About Us" },
+    { "link": "  ", "title": "Our Team" },
+    { "link": "  ", "title": "Careers" },
+    { "link": "  ", "title": "Contact Us" }
   ],
   "address":[
     {"ads": "Abc Complex, Tower A, Whitefield, Bangalore", "icon": "bi bi-geo-alt-fill"},
