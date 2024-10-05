@@ -36,7 +36,7 @@ const HomeSaasTechnology = () => {
           <About />
           <Services />
           <Contact />
-          <Testimonials />
+          {/* <Testimonials /> */}
         </main>
         <Footer />
       </MainLayout>
