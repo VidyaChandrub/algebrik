@@ -2,7 +2,7 @@ import React from 'react'
 
 const Content = ({ links, rtl }) => {
   return (
-    <div className="content">
+    <div className="content mb-lg-5 pb-lg-5">
       <div className="container">
         <div className="row align-items-center">
           <div className="col-lg-5 order-2 order-lg-0">
