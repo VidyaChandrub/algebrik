@@ -60,7 +60,7 @@ const Footer = () => {
           <div className="col-lg-2 col-sm-6">
             <div className="items">
               <div className="fw-bold pb-3 text-blue">
-              services
+              Services
               </div>
               <ul>
                 {
