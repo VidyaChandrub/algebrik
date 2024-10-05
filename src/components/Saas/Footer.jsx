@@ -66,7 +66,7 @@ const Footer = () => {
                 {
                   footerData.services.map((link, index) => (
                     <li key={index}>
-                      <Link href><a>{link.title}</a></Link>
+                      <Link ><a>{link.title}</a></Link>
                     </li>
                   ))
                 }
@@ -82,7 +82,7 @@ const Footer = () => {
                 {
                   footerData.resources.map((link, index) => (
                     <li key={index}>
-                      <Link href><a>{link.title}</a></Link>
+                      <Link ><a>{link.title}</a></Link>
                     </li>
                   ))
                 }
@@ -98,7 +98,7 @@ const Footer = () => {
                 {
                   footerData.company.map((link, index) => (
                     <li key={index}>
-                      <a href>{link.title}</a>
+                      <a>{link.title}</a>
                     </li>
                   ))
                 }
