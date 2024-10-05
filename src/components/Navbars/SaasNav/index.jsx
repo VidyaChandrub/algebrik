@@ -100,7 +100,7 @@ const Navbar = ({ navbarRef, bgWhite }) => {
           <div className="nav-side">
           <ul className="navbar-nav m-auto mb-2 mb-lg-0">
             <li className="nav-item">
-              <Link href="/page-contact-5">
+              <Link href="#contact">
                 <a className="btn blue5-3Dbutn hover-blue2 sm-butn" href="#contact">
                 <span>CONTACT</span>
                 </a>

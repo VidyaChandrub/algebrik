@@ -6,7 +6,7 @@ const Contact = () => {
 
   return (
     
-    <section className="services section-padding pb-50 style-5" id="solutions">
+    <section className="services section-padding pb-50 style-5" id="">
     <div className="container demo-bg">
       <div className="row align-items-center gap-4 justify-content-center p-lg-5 p-4">
         <h2 className="demo-h2 text-center">Ready to Transform Your Lending Process?</h2>
