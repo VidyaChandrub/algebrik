@@ -14,7 +14,7 @@ const Content = ({ list, rtl }) => {
           <div className="col-lg-5">
             <div className="section-head mb-30 style-5">
               <h2>The Algebrik  <span>Advantage</span> </h2>
-              <p className="p-styles">Algebrik AI helps lenders streamline operations, cut costs, and speed up decision-making with seamless onboarding, flexible workflows, and real-time insights</p>
+              <p className="p-styles pt-lg-3">Algebrik AI helps lenders streamline operations, cut costs, and speed up decision-making with seamless onboarding, flexible workflows, and real-time insights</p>
             </div>
             <ul className="line-links list-icon">
               {

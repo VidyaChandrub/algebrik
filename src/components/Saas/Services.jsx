@@ -15,7 +15,7 @@ const Services = ({ rtl }) => {
       <div className="container">
         <div className="row justify-content-center">
           <div className="col-lg-8">
-            <div className="section-head text-center mb-60 style-5">
+            <div className="section-head text-lg-center text-start mb-60 style-5">
               {/* <p className="text-blue">Services</p> */}
               <h2 className="mb-20">Solving Key <span>Lending </span><br></br><span>Challenges Across Industries </span> </h2>
                
@@ -60,7 +60,7 @@ const Services = ({ rtl }) => {
           > */}
             {
               servicesData.map((service, index) => (
-                <div className="col-lg-3 col-sm-6 mb-lg-0 mb-2" key={index}>
+                <div className="col-lg-3 col-sm-6 mb-lg-0 mb-5" key={index}>
                     <a href="#" className="features-card style-5">
                       <div className="icon">
                         <img src={service.img} alt="" />
@@ -96,7 +96,7 @@ const Services = ({ rtl }) => {
       <div className="container">
         <div className="row justify-content-center">
           <div className="col-lg-12">
-            <div className="section-head text-center mb-60 style-5">
+            <div className="section-head text-lg-center text-start mb-60 style-5">
               
               <h2 className="mb-20">The Next Generation in <span className="">  Digital Lending</span></h2>
               

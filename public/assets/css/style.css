@@ -247,7 +247,7 @@ TABLE OF CONTENTS:-
       color: #fff; }
 
 .algerbik-p{
-  font-size: 18px !important;
+  font-size: 20px !important;
   color: #4B5675 !important;
 }
 
@@ -492,9 +492,9 @@ p {
   padding:10px }
 
   .p-text {
-    font-size: 14px;
-    line-height: 2;
-    color:#666666;
+    font-size: 16px;
+    line-height: 1.7;
+    color:#4B5675;
   }
 
 .small, small {
@@ -4243,7 +4243,7 @@ header.style-15 {
         -ms-flex-pack: center;
         justify-content: center;
         margin-right: 15px;
-      margin-top: 12px; }
+      margin-top: 16px; }
       .about.style-5 .content .list-icon li h6 {
         font-size: 16px;
         font-weight: 400;
@@ -10721,8 +10721,23 @@ footer.style-5 {
       margin-bottom: 30px !important;
     }
 
-    .force-break {
-      white-space: pre-wrap !important; /* Enables line breaks for desktop */
+    .heading_sec{
+      color:#4B5675;
+      font-size: 34px;
+      line-height: 44px;
+      font-weight: 500;
+    }
+
+    .lender_down_num{
+      font-size: 40px;
+      font-weight: 600;
+      line-height: 50px;
+    }
+
+    .lender_down_title{
+      font-size: 28px;
+      font-weight: 500;
+      line-height: 32px;
     }
     @media (max-width: 767px)  {
       header.style-5 {
@@ -10731,19 +10746,41 @@ footer.style-5 {
         padding:0px;
         background-color: #F1F5F7 !important;
       }
-
-      .force-break {
-        white-space: normal; /* Removes line breaks on mobile */
+      .heading_sec{
+        color:#4B5675;
+        font-size: 22px;
+        line-height: 32px;
+        font-weight: 500;
+      
       }
+
+      .lender_down_num{
+        font-size: 28px;
+        font-weight: 600;
+        line-height: 36px;
+      }
+  
+      .lender_down_title{
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 36px;
+      }
+
+      
       .section-head.style-5 h1 {
-        font-size: 38px;
-      line-height: 48px !important; }
+        font-size: 30px;
+      line-height: 1.4 !important; }
 
       .demo-h2{
         font-size: 28px;
         font-weight: 600;
         line-height: 40px;
         color: white;
+      }
+
+      .algerbik-p{
+        font-size: 16px !important;
+        color: #4B5675 !important;
       }
     }
 footer.style-6 {
@@ -11180,6 +11217,9 @@ footer.style-13 {
 @media screen and (min-width: 991px) {
   footer.style-13 {
     padding-right: calc((100vw - 1170px) / 2); } }
+
+    .butn, .btn {
+      padding: 8px 20px;}
 
 footer.style-14 {
   background-color: #ecf0f3;
@@ -13892,8 +13932,8 @@ footer.style-15 {
   header.style-2 br {
     display: none; }
   .section-head h2 {
-    letter-spacing: 3px;
-    margin-bottom: 30px; }
+    /* letter-spacing: 1px; */
+    margin-bottom: 15px; }
   .choose_us.style-2 {
     overflow: hidden; }
     .choose_us.style-2 .choose-numbers {
@@ -14923,3 +14963,20 @@ footer.style-15 {
 
 /* ======== */
 /* ======= */
+
+
+/* Animations  */
+.fade-in {
+  opacity: 0;
+  transform: translateX(-100%); /* Start off-screen to the left */
+  animation: fadeIn 4s forwards; /* Adjust duration as needed */
+  animation-delay: 2s;
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+    transform: translateX(0); /* End at the original position */
+  }
+}
+

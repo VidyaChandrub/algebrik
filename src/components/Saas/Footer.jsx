@@ -46,14 +46,18 @@ const Footer = () => {
             </div>
             <div className="items pt-lg-3 pt-0">
             <ul className="line-links list-icon">
-            {footerData.address.map((ad, index) => (
-                  <li key={index}>
-                  <span className="text-blue me-2 my-1">
-                    <i className={ad.icon}></i>
+                <li><span className="text-blue me-2 my-1">
+                    <i className="bi bi-geo-alt-fill"></i>
                   </span>
-                  <a>{ ad.ads }</a>
-                </li>
-                ))}
+                  <a>300 E 59th St. Suite 2801, New York, NY 10022</a></li>
+                  <li><span className="text-blue me-2 my-1">
+                    <i className="bi bi-telephone-fill"></i>
+                  </span>
+                  <a href="tel:+1 917 974 8905">+1 917 974 8905</a></li>
+                  <li><span className="text-blue me-2 my-1">
+                    <i className="bi bi-envelope"></i>
+                  </span>
+                  <a href="mailto:pankaj.jain@algebrik.com">pankaj.jain@algebrik.com</a></li>
             </ul>
             </div>
           </div>

@@ -39,22 +39,18 @@ function Community() {
     <section className='cont-2  style-5 ' id="about-alegbrik">
       <div className="content">
     <div className='container section-head style-5 pt-lg-5'>
-      <div className="row  ">
+      <div className="row align-items-center justify-content-between ">
         <div className="col-lg-5 col-sm-12 col-md-4 col-12">
           <h2 className=''>About <span>Algebrik</span></h2>
 
 
-          <p className='pt-lg-3 py-2 algerbik-p'>Algebrik AI is the world's first cloud-native and AI-powered digital-era Loan Origination System (LOS). Headquartered in the US, it provides a modern stack LOS solution, to credit unions, and to mid-tier banks that are struggling with legacy technology.
-          </p>
+          <p className='pt-lg-3 py-2 algerbik-p'>Algebrik AI is the world's first cloud-native and AI-powered digital-era Loan Origination System (LOS).        </p>
           
-          <p className="algerbik-p">AI-driven underwriting, and seamless integration with key data providers, enabling lenders to automate processes, reduce costs, and engage next-gen customers.          </p>
-          <p className="algerbik-p">
-          In an industry that hasn’t seen significant innovation in over 25 years, Algebrik AI transforms how banks and credit unions originate, approve, and fund loans. Designed to streamline operations and reduce costs, Algebrik AI empowers lenders to engage next-gen borrowers and stay competitive in today’s digital era.
-
-          </p>
+          <p className="algerbik-p">In an industry that hasn’t seen significant innovation in over 25 years, Algebrik AI empowers lenders to engage next-gen borrowers and stay competitive in today’s digital era by transforming loan originations end to end. We do all the heavy lifting so you can focus on growing your business and margins</p>
+          
         </div>
-        <div className="col-lg-7 col-sm-12 col-md-8 col-12">
-          <img src='/assets/img/algebrik/about_algebrik.png' className="img-fluid float-lg-left pt-lg-0 pt-5 px-lg-5 pb-lg-5" />
+        <div className="col-lg-7 col-sm-12 col-md-8 col-12 ">
+          <img src='/assets/img/algebrik/about_algebrik.png' className="img-fluid float-lg-left pt-lg-0 me-auto" />
         </div>
       </div>
     </div>
