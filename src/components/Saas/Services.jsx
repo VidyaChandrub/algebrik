@@ -68,6 +68,9 @@ const Services = ({ rtl }) => {
                       <div className="info">
                         <h5 className="fw-bold">{ service.info }</h5>
                         <div className="text">
+                          <b>{ service.title }</b>
+                        </div>
+                        <div className="text">
                           { service.text }
                         </div>
                       </div>
@@ -95,8 +98,7 @@ const Services = ({ rtl }) => {
           <div className="col-lg-12">
             <div className="section-head text-center mb-60 style-5">
               
-              <h2 className="mb-20">The Next Generation in 
-                <span className=""> Digital Lending</span></h2>
+              <h2 className="mb-20">The Next Generation in <span className="">  Digital Lending</span></h2>
               
             </div>
             <div className="content py-lg-5">
