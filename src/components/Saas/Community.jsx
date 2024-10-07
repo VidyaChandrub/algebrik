@@ -46,7 +46,7 @@ function Community() {
 
           <p className='pt-lg-3 py-2 algerbik-p'>Algebrik AI is the world's first cloud-native and AI-powered digital-era Loan Origination System (LOS).        </p>
           
-          <p className="algerbik-p">In an industry that hasn’t seen significant innovation in over 25 years, Algebrik AI empowers lenders to engage next-gen borrowers and stay competitive in today’s digital era by transforming loan originations end to end. We do all the heavy lifting so you can focus on growing your business and margins</p>
+          <p className="algerbik-p">In an industry that hasn’t seen significant innovation in over 25 years, Algebrik AI empowers lenders to engage next-gen borrowers and stay competitive in today’s digital era by transforming loan originations end to end. We do all the heavy lifting so you can focus on growing your business and margins.</p>
           
         </div>
         <div className="col-lg-7 col-sm-12 col-md-8 col-12 ">

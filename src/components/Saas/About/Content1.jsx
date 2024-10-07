@@ -66,7 +66,7 @@ const Content = ({ links, rtl }) => {
               <div ref={sectionRef} className={`fade-in ${isVisible ? 'active' : ''}`}>
                 <h2 className="text-blue lender_down_num">6 months to 1 year</h2>
                 <h4 className="text-dark lender_down_title">To launch new products </h4>
-                <p className="p-text  mt-3">Legacy tech hinder ability to test and launch new products</p>
+                <p className="p-text  mt-3">Legacy tech hinders ability to test and launch new products</p>
               </div>
             </div>
         </div>
