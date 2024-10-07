@@ -35,7 +35,7 @@ const Content = ({ links, rtl }) => {
               <h2 className="text-lg-center text-left">What's slowing <span>lenders down?</span></h2>
             </div>
 
-            <div className="col-lg-3 d-grid gap-4 ">
+            <div className="col-lg-3 d-grid gap-lg-5 gap-4 order-0 order-lg-1 col-md-6">
               <div ref={sectionRef} className={`fade-in ${isVisible ? 'active' : ''}`}>
                 <h2 className="text-blue lender_down_num">80%</h2>
                 <h4 className="lender_down_title">Customer drop offs </h4>
@@ -47,7 +47,7 @@ const Content = ({ links, rtl }) => {
                 
               </div>
             </div>
-            <div className="col-lg-4 ">
+            <div className="col-lg-4 order-2 order-lg-2 col-md-12">
             <div className="img main-img1">
               <img src="/assets/img/about/about_s5_1_1.png" alt="" className="sm-circle" />
               <img src="/assets/img/about/about_s5_1_2.jpeg" alt="" className="img-body" />
@@ -57,7 +57,7 @@ const Content = ({ links, rtl }) => {
             </div>
             </div>
             {/* <div className="col-lg-1"></div> */}
-            <div className="col-lg-4 d-grid gap-4">
+            <div className="col-lg-4 d-grid gap-lg-5 gap-4 order-1 order-lg-3 mt-lg-0 mt-4 col-md-6">
             <div ref={sectionRef} className={`fade-in ${isVisible ? 'active' : ''}`}>
                 <h2 className="text-blue lender_down_num">5 to 7 days</h2>
                 <h4 className="text-dark lender_down_title">Loan processing times  </h4>

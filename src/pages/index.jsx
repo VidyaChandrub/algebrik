@@ -25,7 +25,7 @@ const HomeSaasTechnology = () => {
   return (
     <>
       <Head>
-        <title>ALGEBRIK</title>
+        <title>ALGEBRIK -Personalized digital onboarding starts here</title>
       </Head>
 
       <MainLayout>

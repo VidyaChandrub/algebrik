@@ -10784,6 +10784,21 @@ footer.style-5 {
         color: #4B5675 !important;
       }
     }
+
+    @media (max-width: 768px)  {
+      .lender_down_num{
+        font-size: 28px;
+        font-weight: 600;
+        line-height: 36px;
+      }
+  
+      .lender_down_title{
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 36px;
+      }
+
+    }
 footer.style-6 {
   position: relative;
   padding-top: 100px;

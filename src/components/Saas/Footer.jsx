@@ -24,7 +24,7 @@ const Footer = () => {
       <div className="container">
         
         <div className="row gx-0 justify-content-between">
-          <div className="col-lg-6 col-sm-12 col-12">
+          <div className="col-lg-6 col-sm-12 col-12 col-md-12">
             <div className="items d-flex align-items-center gap-5">
               <a className="navbar-brand" href="#">
                 <img src="/assets/img/algebrik/logo.svg" alt="" />
@@ -55,13 +55,13 @@ const Footer = () => {
                   </span>
                   <a href="tel:+1 917 974 8905">+1 917 974 8905</a></li>
                   <li><span className="text-blue me-2 my-1">
-                    <i className="bi bi-envelope"></i>
+                    <i className="bi bi-envelope-fill"></i>
                   </span>
                   <a href="mailto:pankaj.jain@algebrik.com">pankaj.jain@algebrik.com</a></li>
             </ul>
             </div>
           </div>
-          <div className="col-lg-2 col-sm-6 col-6">
+          <div className="col-lg-2 col-sm-6 col-6 col-md-4">
             <div className="items">
               <div className="fw-bold pb-3 text-blue">
               Services
@@ -78,7 +78,7 @@ const Footer = () => {
               </ul>
             </div>
           </div>
-          <div className="col-lg-2 col-sm-6 col-6">
+          <div className="col-lg-2 col-sm-6 col-6 col-md-4">
             <div className="items">
               <div className="fw-bold pb-3 text-blue">
                 Resource
@@ -95,7 +95,7 @@ const Footer = () => {
               </ul>
             </div>
           </div>
-          <div className="col-lg-2 col-sm-6 col-6">
+          <div className="col-lg-2 col-sm-6 col-6 col-md-4">
             <div className="items">
               <div className="fw-bold pb-3 text-blue">
                 Company
@@ -115,10 +115,10 @@ const Footer = () => {
         </div>
         <div className="foot">
           <div className="row align-items-center justify-content-between">
-            <div className="col-lg-6 col-sm-6">
+            <div className="col-lg-6 col-12 col-md-6">
             © 2024 <a href="#" className="text-decoration-none">algebrik.com</a> All Rights Reserved.
             </div>
-            <div className="col-lg-6">
+            <div className="col-lg-6 col-md-6">
               <small className="small float-lg-end">
               <a href="#" className=" text-decoration-none ">Terms & Conditions</a> | <a href="#" className=" text-decoration-none">Privacy Policy</a> 
               </small>

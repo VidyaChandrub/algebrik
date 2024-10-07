@@ -40,7 +40,7 @@ function Community() {
       <div className="content">
     <div className='container section-head style-5 pt-lg-5'>
       <div className="row align-items-center justify-content-between ">
-        <div className="col-lg-5 col-sm-12 col-md-4 col-12">
+        <div className="col-lg-5 col-sm-12 col-md-12 col-12">
           <h2 className=''>About <span>Algebrik</span></h2>
 
 
@@ -49,8 +49,8 @@ function Community() {
           <p className="algerbik-p">In an industry that hasn’t seen significant innovation in over 25 years, Algebrik AI empowers lenders to engage next-gen borrowers and stay competitive in today’s digital era by transforming loan originations end to end. We do all the heavy lifting so you can focus on growing your business and margins.</p>
           
         </div>
-        <div className="col-lg-7 col-sm-12 col-md-8 col-12 ">
-          <img src='/assets/img/algebrik/about_algebrik.png' className="img-fluid float-lg-left pt-lg-0 me-auto" />
+        <div className="col-lg-7 col-sm-12 col-md-12 col-12 ">
+          <img src='/assets/img/algebrik/about_us.png' className="img-fluid float-lg-left  me-auto" />
         </div>
       </div>
     </div>
