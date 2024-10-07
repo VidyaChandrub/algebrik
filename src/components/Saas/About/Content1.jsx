@@ -39,12 +39,12 @@ const Content = ({ links, rtl }) => {
               <div ref={sectionRef} className={`fade-in ${isVisible ? 'active' : ''}`}>
                 <h2 className="text-blue lender_down_num">80%</h2>
                 <h4 className="lender_down_title">Customer drop offs </h4>
-                <p className="p-text  mt-3">Broken omni channel onboarding journeys </p>
+                
               </div>
               <div ref={sectionRef} className={`fade-in ${isVisible ? 'active' : ''}`}>
                 <h2 className="text-blue lender_down_num">$200 - $500</h2>
                 <h4 className="text-dark lender_down_title">Cost of acquiring a customer </h4>
-                <p className="p-text  mt-3">One size fits all onboarding journeys </p>
+                
               </div>
             </div>
             <div className="col-lg-4 ">
@@ -61,12 +61,11 @@ const Content = ({ links, rtl }) => {
             <div ref={sectionRef} className={`fade-in ${isVisible ? 'active' : ''}`}>
                 <h2 className="text-blue lender_down_num">5 to 7 days</h2>
                 <h4 className="text-dark lender_down_title">Loan processing times  </h4>
-                <p className="p-text mt-3">Lenghty inflexible workflows and manual processes</p>
+               
               </div>
               <div ref={sectionRef} className={`fade-in ${isVisible ? 'active' : ''}`}>
                 <h2 className="text-blue lender_down_num">6 months to 1 year</h2>
                 <h4 className="text-dark lender_down_title">To launch new products </h4>
-                <p className="p-text  mt-3">Legacy tech hinders ability to test and launch new products</p>
               </div>
             </div>
         </div>

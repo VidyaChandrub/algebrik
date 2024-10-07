@@ -61,7 +61,7 @@ const Services = ({ rtl }) => {
             {
               servicesData.map((service, index) => (
                 <div className="col-lg-3 col-sm-6 mb-lg-0 mb-5" key={index}>
-                    <a href="#" className="features-card style-5">
+                    <a className="features-card style-5">
                       <div className="icon">
                         <img src={service.img} alt="" />
                       </div>
@@ -106,7 +106,7 @@ const Services = ({ rtl }) => {
             {
               services2.map((service2, i) => (
                 <div className="col-lg-3 col-sm-6" key={i}>
-                  <a href="#" className="features-card mb-30 style-5">
+                  <a className="features-card mb-30 style-5">
                     <div className="icon1">
                       <img src={service2.img} alt="" />
                     </div>

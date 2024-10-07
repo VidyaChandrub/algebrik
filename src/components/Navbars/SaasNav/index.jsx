@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import {useRef} from "react";
 
 const Navbar = ({ navbarRef, bgWhite }) => {
   const handleMouseMove = (event) => {

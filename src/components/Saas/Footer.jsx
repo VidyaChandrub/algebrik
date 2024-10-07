@@ -30,7 +30,7 @@ const Footer = () => {
                 <img src="/assets/img/algebrik/logo.svg" alt="" />
               </a>
               <div className="socail-icons">
-                <a href="https://twitter.com/" rel="noreferrer" className="icon-35 rounded-circle bg-white overflow-hidden d-inline-flex align-items-center justify-content-center text-dark me-2" target="_blank">
+                {/* <a href="https://twitter.com/" rel="noreferrer" className="icon-35 rounded-circle bg-white overflow-hidden d-inline-flex align-items-center justify-content-center text-dark me-2" target="_blank">
                   <i className="fab fa-twitter"></i>
                 </a>
                 <a href="https://facebook.com/" rel="noreferrer" className="icon-35 rounded-circle bg-white overflow-hidden d-inline-flex align-items-center justify-content-center text-dark me-2" target="_blank">
@@ -38,8 +38,8 @@ const Footer = () => {
                 </a>
                 <a href="https://instagram.com/" rel="noreferrer" className="icon-35 rounded-circle bg-white overflow-hidden d-inline-flex align-items-center justify-content-center text-dark me-2" target="_blank">
                   <i className="fab fa-instagram"></i>
-                </a>
-                <a href="https://instagram.com/" rel="noreferrer" className="icon-35 rounded-circle bg-white overflow-hidden d-inline-flex align-items-center justify-content-center text-dark " target="_blank">
+                </a> */}
+                <a href="https://www.linkedin.com/company/algebrik-ai/posts/?feedView=all" rel="noreferrer" className="icon-35 rounded-circle bg-white overflow-hidden d-inline-flex align-items-center justify-content-center text-dark " target="_blank">
                 <i className="fab fa-linkedin"></i>
                 </a>
               </div>

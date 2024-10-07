@@ -69,6 +69,7 @@ TABLE OF CONTENTS:-
 			[ * variable Section ] 
 ================================================================*/
 /* --------------- variable --------------- */
+
 :root {
   --color-main:#0066ff;
   --color-primary:#0066ff;
@@ -404,8 +405,8 @@ body {
   margin-right: -15px;
   margin-left: -15px; }
   .row:not(.gx-0):not(.gx-1):not(.gx-2):not(.gx-3):not(.gx-4):not(.gx-5) > * {
-    padding-right: 15px;
-    padding-left: 15px; }
+    padding-right: 20px;
+    padding-left: 20px; }
 
 h1,
 h2,
